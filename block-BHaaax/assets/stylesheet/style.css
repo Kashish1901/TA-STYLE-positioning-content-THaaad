@@ -45,37 +45,66 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+	/* custome style */
+
 }
-*{
-    box-sizing: border-box;
+.header{
+	background-color: darkgrey;
+	font-size: 0;
+	padding: 0 16px;
 }
-header{
-    background-color: blueviolet;
-    font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
+.container{
+	max-width: 1300px;
+	margin: 0 auto;
+	padding: 0 32px;
 }
-header,aside,section,footer{
-    text-align: center;
-    padding: 30px;
-    border: 2px solid black;
-    margin: 1.5px;
+.brand img{
+	width: 180px;
 }
-aside,section{
-    display: inline-block;
-    padding: 50px;
-    background-color: coral;
+.brand ,
+.nav{
+display: inline-block;
+vertical-align: middle;
 }
-aside{
-    width: 30%;
-    font: 30px;
+.nav{
+	width: calc(100%-180px);
+	font-size: 24px;
+	text-align: right;
 }
-section{
-    width: 64%;
+.nav a{
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-left: 50px 0;
 }
-div{
-    display: inline-block;
+
+.article{
+	font-size: 0;
+	padding: 20px;
 }
-footer{
-    background-color: crimson;
-    font-size: 28px;
+ .article-img{
+	width: 100%;
+}
+.col{
+	width: 50%;
+	display: inline-block;
+	font-size: 30px;
+	vertical-align: top;
+}
+.article-heading{
+	font-size: 50px;
+	padding: 20px;
+	margin: 10px;
+	color: chartreuse;
+	text-transform: uppercase;
+}
+.article-content{
+	font-size: 35px;
+	padding: 10px;
+	margin: 10px;
+}
+.footer{
+	font-size: 20px;
+	background-color: grey;
+	text-align: center;
+	padding: 32px;
 }
