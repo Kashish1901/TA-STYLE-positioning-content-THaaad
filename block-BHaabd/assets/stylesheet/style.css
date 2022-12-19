@@ -47,9 +47,15 @@ table {
 	border-spacing: 0;
 }
 /* custom style */
+* ,
+*::before ,
+* ::after{
+    box-sizing: border-box;
+}
 body{
     background-color: rgb(194, 185, 185);
     font-size: 24px;
+    padding-bottom: 32px;
 }
 h1{
     font-size: 50px;
@@ -63,27 +69,6 @@ h1{
     margin: 0 auto;
     padding: 50px;
 }
-h2{
-    font-size: 35px;
-    color: black;
-    text-align: center;
-    margin: 50px;
-}
-/* article */
-.col{
-    float: left;
-    height: 80%;
-    width: 25%;
-    margin-left: 50px;
-}
-.col-right{
-    float: right;
-    height: 80%;
-    width: 25%;
-}
-p{
-    font-size: 29px;
-}
 /* clearfix */
 .clearfix::before , .clearfix::after{
     display: table;
@@ -92,4 +77,42 @@ p{
 .clearfix::after{
     clear: both;
 }
+
+/* article */
+h2{
+    font-size: 40px;
+    color: black;
+    padding-bottom: 20px;
+    font-weight: 300px;
+}
+.article img{
+    font-size: 300px;
+}
+.left{
+    float: left;
+}
+aside{
+    width: 25%;
+}
+article{
+    width: 50%;
+}
+.left-sidebar p{
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+.article p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.quote{
+    padding-left: 24px;
+}
+.right-sidebar{
+    padding-left: 32px;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
 
