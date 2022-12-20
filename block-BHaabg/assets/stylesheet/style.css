@@ -49,10 +49,12 @@ table {
 /* custome style */
 body{
     line-height: 1.5;
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .header{
     background-color: rgb(44, 44, 112);
+    position: fixed;
+    width: 100%;
 }
 .header img{
     width: 180px;
@@ -79,6 +81,7 @@ body{
 .article-img{
     width: 500px;
     height: 400px;
+    outline: 2px solid black;
 }
 h1{
     font-size: 30px;
@@ -103,6 +106,8 @@ p{
 .article{
     font-size: 0;
     background-color: rgb(129, 151, 107);
+    padding: 80px 0;
+    padding-top: 150px;
 }
 .gallery-img{
    width: 300px;
